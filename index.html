@@ -3,10 +3,17 @@
 <head>
 	<!--Başak ve Süoğlu-->
 	<style type="text/css">
+		body{
+			color: #A684FF;
+		}
+		div{
+			background-color: inherit;
+		}
 		.container-fluid
-		{background-color: #708090;}
+		{background-color: #F0FFB4;}
 		
 	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Bootstrap-->
@@ -18,27 +25,34 @@
 	<title>Yiğit Süoğlu</title>
 </head>
 <body>
-<div class="container-fluid">
-	<div class="page-header">
-	  <h1>Başlık<small>Nerdeyim?</small></h1>
+	<div class="container-fluid">
+		<div class="page-header">
+		  <h1>Başlık <small>Nerdeyim?</small></h1>
+		</div>
+
+		<nav class="navbar navbar-default">
+		  <div class="container">
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li ><a href="#">Ana Sayfa <span class="sr-only">(current)</span></a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Özgeçmiş<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Tecrübe</a></li>
+		            <li><a href="#">Eğitim</a></li>
+		          </ul>
+		        </li>
+		        <li class="active"><a href="#">Projelerim</a></li>
+		        <li><a href="#">İletişim Bilgilerim</a></li>
+		      </ul>
+		     
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		
 	</div>
-	<ul class="nav nav-pills">
-	  ...
-	  <li role="presentation" class="dropdown">
-	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-	      Dropdown <span class="caret"></span>
-	    </a>
-	    <ul class="dropdown-menu">
-	      ...
-	    </ul>
-	  </li>
-	  ...
-	</ul>
-	<div class="jumbotron">
-	  <h1>Nasılsın</h1>
-	  <p>...</p>
-	  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-</div>
-</div>
 </body>
 </html>
