@@ -19,11 +19,14 @@
 		.col-md-10 {
 			text-align: justify;
 		}
-
 		.row {
 			border:1.2px solid #bdcfdb;
-			border-style: solid none none none;
+			border-style: none none solid none;
 			padding-top: 0.5em;
+		}
+
+		#lastROW {
+			border-style: none none none none;
 		}
 
 	</style>
@@ -141,7 +144,7 @@
 						</br></br></div>
 				  	<div class="col-md-2"><small>Ağustos 2016</small></br></br></div>
 				</div>
-				<div class="row">
+				<div class="row" id="lastROW">
 				  	<div class="col-md-10">
 							<b>Banka Kuyruk Yönetim Sistemi</b>
 						</br>Sayısal tasarım dersi kapsamında Verilog kullanarak basit bir banka kuyruk yönetim sistemi tasarlandı
