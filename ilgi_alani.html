@@ -4,10 +4,8 @@
 	<!--Başak ve Süoğlu-->
 	<style type="text/css">
 
-
 		.container-fluid
 		{background-color: #94ABC7;}
-
 
 		.container-fluid .panel{
 			background-color: #F4F7F9;
@@ -19,6 +17,11 @@
 		.page-header {
 			color: #F4F7F9;
 		}
+
+		#intrst {
+			margin: 2em;
+		}
+
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<meta charset="utf-8">
@@ -29,7 +32,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<title>Yiğit Süoğlu</title>
+	<title>Yiğit Süoğlu ~ ilgi alanlarım</title>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -44,39 +47,45 @@
 <body>
 	<div class="container-fluid">
 		<div class="page-header">
-		  <h2>Yiğit Süoğlu'nun Kişisel Web Sitesi</h2>
+		  <h2>Yiğit Süoğlu <small>İlgi Alanlarım </small></h2>
 		</div>
 
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid" id="navigasyonKutusu">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href=""><span class="glyphicon glyphicon-home"></span> Ana Sayfa <span class="sr-only">(current)</span></a></li>
+		        <li><a href="anasayfa.html"><span class="glyphicon glyphicon-home"></span> Ana Sayfa <span class="sr-only">(current)</span></a></li>
 		        <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Özgeçmiş<span class="caret"></span></a>
 		          <ul class="dropdown-menu">
 		            <li><a href="ozgecmisTecrube.html">Tecrübe</a></li>
-		            <li><a href="ozgecmisEgitim.html">Eğitim</a></li>
-								<li><a href="ilgi_alani.html">İlgi Alanlarım</a></li>
+								<li><a href="ozgecmisEgitim.html">Eğitim</a></li>
+		            <li class="active"><a href="">İlgi Alanlarım</a></li>
 		          </ul>
 		        </li>
 		        <li><a href="projelerim.html">Projelerim</a></li>
 		        <li><a href="iletisim.html">İletişim Bilgilerim</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-
 					 <li class="dropdown" id="lang">
 						 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Türkçe<span class="caret"></span></a>
 						 <ul class="dropdown-menu">
-							 <li><a href="index.html">English</a></li>
+							 <li><a href="interests.html">English</a></li>
 						 </ul>
+						 </li>
 					</ul>
 		  </div><!-- /.container-fluid -->
 		</nav>
 		<div class="panel panel-default">
 		  <div class="panel-body">
 				<div class="row">
-				  	<div class="col-md-8">Hoşgeldiniz! Beni tanımak için özgemişim ve projelerim düğmelerine tıklayın.</div>
-				  	<div class="col-md-4"></div>
+				  	<div class="col-md-4" id="intrst">
+							FPGA Tasarımı</br></br>
+							Digital Entegre Devre Tasarımı</br></br>
+							Analog Entegre Devre Tasarımı</br></br>
+							Radyo Frekansı Devre Tasarımı</br></br>
+							Gömülü Sistemler
+						</div>
+				  	<div class="col-md-8"></div>
 				</div>
 			</div>
 
@@ -85,7 +94,7 @@
 	</div>
 	<footer class="footer">
       <div class="container">
-          <p class="text-muted" align=center><small>This website is managed by <a href="https://github.com/basakerdamar">Başak Erdamar</a> and <a href="https://github.com/suoglu">Yiğit Süoğlu.</small></p>
+          <p class="text-muted" align=center><small>This website is managed by <a href="https://github.com/basakerdamar">Başak Erdamar</a> and <a href="https://github.com/suoglu">Yiğit Süoğlu</a>.</small></p>
       </div>
     </footer>
 </body>
