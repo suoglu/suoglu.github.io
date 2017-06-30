@@ -17,6 +17,14 @@
 		.page-header {
 			color: #F4F7F9;
 		}
+		#lst {
+			margin-top: 0.3em;
+		}
+		.panel-body {
+			margin: 1.6em;
+		}
+
+
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<meta charset="utf-8">
@@ -27,7 +35,7 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<title>Yiğit Süoğlu ~ Contact</title>
+	<title>Yiğit Süoğlu ~ Skills</title>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -42,7 +50,7 @@
 <body>
 	<div class="container-fluid">
 		<div class="page-header">
-		  <h2>Yiğit Süoğlu  <small><span class="glyphicon glyphicon-send"></span> Contact Information</small></h2>
+		  <h2>Yiğit Süoğlu  <small></span>Skills</small></h2>
 		</div>
 
 		<nav class="navbar navbar-default">
@@ -54,46 +62,42 @@
 		          <ul class="dropdown-menu">
 		            <li><a href="experience.html">Experience</a></li>
 		            <li><a href="education.html">Education</a></li>
- 							 <li><a href="interests.html">Interests</a></li>
-	 						<li><a href="skills.html">Skills</a></li>
+ 							 	<li><a href="interests.html">Interests</a></li>
+								<li class="active"><a href="skills.html">Skills</a></li>
 		          </ul>
 		        </li>
 		        <li><a href="projects.html">My projects</a></li>
-		        <li class="active"><a href="contact.html">Contact Information</a></li>
+		        <li><a href="contact.html">Contact Information</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown" id="lang">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> English<span class="caret"></span></a>
 		          <ul class="dropdown-menu">
-		            <li><a href="iletisim.html">Türkçe</a></li>
+		            <li><a href="beceriler.html">Türkçe</a></li>
 		          </ul>
 		        </li>
 		      </ul>
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-		<div class="panel panel-default">
+		<div class="panel panel-default" >
 		  <div class="panel-body">
 				<div class="row">
-					<div class="col-md-4"><span title="e-mail" class="glyphicon glyphicon-envelope"></span>
-						<a href="mailto:yigitsuoglu@sabanciuniv.edu"> yigitsuoglu@sabanciuniv.edu</a>
-					</br></br></div>
-				  	<div class="col-md-8"></div>
+					<div class="col-md-12"><b>My computer related skills follows as:</b></div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<span title="LinkedIn"><img src="linkedinlogo.png" height="16"></span>
-						 <a href="https://www.linkedin.com/in/yigitsuoglu">  linkedin.com/in/yigitsuoglu</a>
-					</br></br></div>
-				  	<div class="col-md-8"></div>
-				</div>
-			  	<div class="row">
-				  	<div class="col-md-4">
-							<span title="Github">
-							<svg aria-hidden="true" class="octicon octicon-mark-github" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
-						</span> <a href="https://github.com/suoglu">  github.com/suoglu</a></br></br></div>
-				  	<div class="col-md-8"></div>
-				</div>
+				<div class="row" id="lst">
+					<div class="col-md-3"><ul type="square">
+						<li>Cadence Virtuoso</li>
+					  <li>Agilent ADS</li>
+					  <li>Xilinx Vivado</li>
+					  <li>Xilinx ISE</li>
+					  <li>Verilog</li>
+					  <li>C/C++</li>
+						<li>Assembly Language for <a href="http://acoustics.sabanciuniv.edu/ee308/pic24/pic24.html">PIC24</a></li>
+					  <li>Arduino</li>
+						<li>HTML/CSS</li>
+				</ul></div>
+
 			</div>
 
 		</div>
