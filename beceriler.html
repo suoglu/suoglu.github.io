@@ -23,7 +23,20 @@
 		.panel-body {
 			margin: 1.6em;
 		}
+		/* aşağıdaki kısım footer ın sabitlenmesi ve body nin tüm sayfayı kaplayabilmesi için eklendi, 
+		deneyseldir ve uzun içerikli sayfalarda sorun çıkarır. */ 
+		body{
+			bottom: 5%;
+			top: 0;
+			background-color: #94ABC7;
+			position: fixed;
+			width: 100%;
+		}
 
+		footer{
+			position: fixed;
+			bottom: 0;
+		}
 
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
