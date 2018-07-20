@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Başak ve Süoğlu-->
+	<style type="text/css">
+		html{
+			background-color: #94ABC7;
+		}
+		body{
+			top: 0;
+			width: 100%;
+			background-color: #94ABC7;
+		}
+		footer{
+			background-color: #94ABC7;
+			bottom: 0em;
+			width: 100%;
+		}
+		.card-link2:hover{
+  		text-decoration: none;
+		}
+		.card-link2{
+  		text-decoration: none;
+			color: #424242;
+		}
+		.card-text
+		{
+			color: #424242;
+		}
+		.card-title
+		{
+			color: #424242;
+		}
+		.container-fluid{
+			background-color: #94ABC7;
+		}
+		.card-link
+		{
+			color: #424242;
+		}
+		.dcell
+		{
+			margin-bottom: 1em;
+			padding-bottom: 1em;
+			border-bottom: thin solid #94ABC7;
+		}
+		#navbarDiv
+		{
+			padding-bottom: 1em;
+		}
+
+		#pageCont
+		{
+			background-color: #F4F7F9;
+		}
+		#pagetitle
+		{
+			color: #F4F7F9;
+			padding-top: 1em;
+			border-bottom: thin solid #F4F7F9;
+			padding-bottom: 0.5em;
+			margin-bottom: 0.75em;
+		}
+		#pagetitlesmall
+		{
+			color: #75757A;
+		}
+		#navigasyonKutusu
+		{
+			background-color: #F4F7F9;
+		}
+		.dataorw
+		{
+			background-color: #F4F7F9;
+		}
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Bootstrap-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<title>Yiğit Süoğlu ~ Scuba Diving</title>
+</head>
+<body>
+	<!-- Page title starts -->
+	<div class="container-fluid">
+		<div class="row align-self-center">
+			<div class="col">
+				<h2 id="pagetitle">Yiğit Süoğlu<small><small id=pagetitlesmall> <i class="fas fa-fish"></i> Scuba Diving</small></small></h2>
+			</div>
+		</div>
+	</div>
+	<!-- Page title ends
+	Navbar stars -->
+	<div class="container-fluid" id="navbarDiv">
+		<div class="card" id="pageCont">
+			<nav class="navbar navbar-expand-lg navbar-light" id="navigasyonKutusu">
+				<div class="collapse navbar-collapse show" id="navigasyonKutusuic">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							 <a class="nav-link" href="index.html"><span class="fas fa-home"></span> Home</a>
+						 </li>
+						 <li class="nav-item dropdown">
+							 	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+								role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						 	 		<span class="fas fa-user-tie"></span> Resume
+					 			</a>
+				       <div class="dropdown-menu">
+				         <a class="dropdown-item" href="experience.html">Experience</a>
+				         <a class="dropdown-item" href="education.html">Education</a>
+				         <a class="dropdown-item" href="interests.html">Interests</a>
+				         <a class="dropdown-item" href="skills.html">Skills</a>
+				         <a class="dropdown-item" href="certifications.html">Certifications</a>
+				       </div>
+				     </li>
+						 <li class="nav-item">
+							 <a class="nav-link" href="projects.html"><span class="fas fa-microchip"></span> Projects<span class="sr-only">(current)</span></a>
+						 </li>
+						 <li class="nav-item dropdown">
+							 	<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown"
+								role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						 	 		<span class="fas fa-play-circle"></span> Hobbies
+					 			</a>
+				       <div class="dropdown-menu">
+				         <a class="dropdown-item active" href="scuba.html">Scuba Diving</a>
+				         <a class="dropdown-item" href="movies.html">Movie Suggestions</a>
+				       </div>
+				     </li>
+						 <li class="nav-item">
+							 <a class="nav-link" href="contact.html"><span class="fas fa-address-book"></span> Contact Information</a>
+						 </li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+							 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="fas fa-globe-americas"></span> English
+							 </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="dalis.html">Türkçe</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- Navbar ends
+	Page content starts-->
+	<div class="container-fluid">
+		<div class="card" id="pageCont">
+			<div class="card-body">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<img src="https://suoglu.github.io/misc/Pics/diver2.jpg" class="img-thumbnail" alt="Link: https://suoglu.github.io/misc/Pics/diving2011-2.jpeg">
+					</div>
+					<div class="col-md-6">
+						<p class="text-justify">
+							</br>
+							I started scuba diving in the summer of 2010, with my mother. We started to dive in <a href="https://en.wikipedia.org/wiki/Marmaris" class="card-link">Marmaris</a>.
+							I continued to dive with both my mother and my father. We dived in many different places such as <a href="https://en.wikipedia.org/wiki/Sharm_El_Sheikh" class="card-link2">Sharm El Sheikh</a>,
+							<a href="https://en.wikipedia.org/wiki/Bodrum" class="card-link2">Bodrum</a> and <a href="https://en.wikipedia.org/wiki/Kaş" class="card-link2">Kaş</a>.
+							Currently, I have a <a href="https://www.padi.com" class="card-link2">PADI</a> <a href="https://en.wikipedia.org/wiki/Advanced_Open_Water_Diver" class="card-link2">Advanced Open Water Diver </a> certificate
+							and more than 50 logged dives.</br></br>
+
+							After a while, I started to take photos during my dives. I used the Canon
+							<a href="https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/support-point-and-shoot/powershot-g-series/powershot-g11/powershot-g11" class="card-link2">PowerShot G11</a>
+							with the WP-DC34 case to take photos. Below, you can find some of the photographs I took during diving.
+						</br>
+					</p>
+					</div>
+				</div>
+				<div class="row align-items-center" style="margin-top: 2em;">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="img-thumbnail">
+							<div id="divePhotos" class="carousel slide" data-ride="carousel" data-interval="false">
+							  <div class="carousel-inner">
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/divers1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+									  </div>
+							    </div>
+							  <div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/diver1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/diver3.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/diver4.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/diver5.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish10.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish11.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish12.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish13.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish3.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish4.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2013</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish5.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish6.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish7.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish8.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+							      <img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish9.jpg">
+										<div class="carousel-caption d-none d-md-block">
+									    <p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+									  </div>
+							    </div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish_in_the_cave.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/following_fish.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/grey_fish.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/fish_under_ship.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/grouper1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/grouper2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/hiding_fish.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/pot1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/rock1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom4.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom5.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom6.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom7.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom8.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_bottom9.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star3.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star4.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star5.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star6.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star7.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_star8.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sea_urchin1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sponge1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sponge2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_3.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_4.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2013</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_engine_1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_engine_2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2013</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/sunk_plane_engine_foto.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/tube_worm1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Bodrum, 2012</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/tube_worm2.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/underwater_cove1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/underwater_light_rays.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Marmaris, 2011</em></p>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="https://suoglu.github.io/misc/Pics/underwater_plants1.jpg">
+										<div class="carousel-caption d-none d-md-block">
+											<p style="color: #F4F7F9;"><em style=" background-color: rgba(0, 0, 0, 0.5);">Saroz, 2012</em></p>
+										</div>
+									</div>
+								</div>
+							  <a class="carousel-control-prev" href="#divePhotos" role="button" data-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="carousel-control-next" href="#divePhotos" role="button" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page content ends
+				footer starts-->
+	<div class="container-fluid">
+		<footer class="footer">
+          <p class="text-muted" align=center><small>This website is managed by <a href="https://github.com/suoglu">Yiğit Süoğlu</a> and <a href="https://github.com/basakerdamar">Başak Erdamar</a>.</small></p>
+    </footer>
+	</div>
+	<!-- Footer ends-->
+</body>
+</html>
